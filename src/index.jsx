@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/styles/index.css'; // Import global styles
-import App from './components/App'; // Import the main App component
+import App from './App'; // Import the main App component
 
 // Render the App component into the root element
 ReactDOM.render(

@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import '../assets/styles/App.css';
-import Header from './Header';
-import AboutMe from './AboutMe';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
-import Footer from './Footer';
+import './assets/styles/App.css'; // Import global styles
+import Header from './components/Header';
+import AboutMe from './pages/AboutMe';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
+import Footer from './components/Footer';
 
 const App = () => {
   const [currentSection, setCurrentSection] = useState('About Me');
