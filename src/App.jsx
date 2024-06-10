@@ -28,7 +28,9 @@ const App = () => {
   return (
     <div className="App">
       <Header currentSection={currentSection} setCurrentSection={setCurrentSection} />
+      <main>
       {renderSection()}
+      </main>
       <Footer />
     </div>
   );
