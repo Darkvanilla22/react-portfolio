@@ -1,10 +1,14 @@
 import React from 'react';
 import '../assets/styles/Portfolio.css';
 import Project from '../components/Project';
+import pwaTextEditor from '../assets/images/pwa-text-editor.png';
 
 const Portfolio = () => {
   const projects = [
-    { title: 'Project 1', image: 'path/to/image1.jpg', deployedLink: '#', repoLink: '#' },
+    { title: 'PWA Text Editor', 
+      image: pwaTextEditor, 
+      deployedLink: 'https://pwa-text-editor-g8vs.onrender.com/', 
+      repoLink: 'https://github.com/Darkvanilla22/PWA-Text-Editor' },
     // Add more projects here
   ];
 
