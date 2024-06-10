@@ -1,4 +1,15 @@
-section {
-    padding: 2rem;
-  }
-  
+.about-me {
+  padding: 2rem;
+}
+
+.profile-pic {
+  width: 300px; 
+  height: 300px; 
+  border-radius: 50%; /* Makes the image circular */
+  display: block;
+  margin: 0 auto 1rem auto; /* Centers the image and adds bottom margin */
+}
+
+p {
+  text-align: center; /* Centers the text */
+}
