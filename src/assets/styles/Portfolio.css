@@ -1,0 +1,9 @@
+section {
+    padding: 2rem;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  

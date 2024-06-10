@@ -1,0 +1,16 @@
+nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+  
+  nav .active {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+  }
+  
