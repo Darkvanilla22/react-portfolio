@@ -4,6 +4,7 @@ import Project from '../components/Project';
 import pwaTextEditor from '../assets/images/pwa-text-editor.png';
 import weatherReport from '../assets/images/weather-report-dashboard.png';
 import expressNoteTaker from '../assets/images/express-note-taker.png';
+import eventii from '../assets/images/eventii-management-platform.png';
 
 const Portfolio = () => {
   const projects = [
@@ -21,6 +22,12 @@ const Portfolio = () => {
       image: expressNoteTaker,
       deployedLink: 'https://express-note-taker-fadda8ca939d.herokuapp.com/',
       repoLink: 'https://github.com/Darkvanilla22/express-note-taker'
+    },
+    // Add more projects here
+    { title: 'Eventii Management Platform',
+      image: eventii,
+      deployedLink: 'https://eventii-management-platform-l6xt.onrender.com/',
+      repoLink: 'https://github.com/yahm0/Eventii-Management-Platform'
     }
   ];
 
