@@ -1,5 +1,7 @@
 # Finian's Developer Portfolio (Made with React!)
 
+<img width="1920" alt="image" src="https://github.com/Darkvanilla22/react-portfolio/assets/53369798/ccfa7a42-1ac5-458e-b740-7e0cf1653b91">
+
 ## Description
 
 This developer portfolio is used to showcase the various projects that I've worked on, as well as providing contact information for reaching out to me.
@@ -23,7 +25,7 @@ This website features the following pages:
 
 ## Usage
 
-
+Please visit this [link](https://aquamarine-frangipane-9ccb65.netlify.app/) here to view the website.
 
 ## License
 
