@@ -25,14 +25,16 @@ const Portfolio = () => {
   ];
 
   return (
-    <section>
-      <h2>Portfolio</h2>
-      <div className="projects">
-        {projects.map((project, index) => (
-          <Project key={index} {...project} />
-        ))}
-      </div>
-    </section>
+    <div className="portfolio-container">
+      <section className="portfolio">
+        <h2>Portfolio</h2>
+        <div className="projects">
+          {projects.map((project, index) => (
+            <Project key={index} {...project} />
+          ))}
+        </div>
+      </section>
+    </div>
   );
 };
 
