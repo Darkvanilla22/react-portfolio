@@ -1,6 +1,6 @@
 nav {
-  background-color: #f4f4f4; /* Set the background color to #f4f4f4 */
-  padding: 0.5rem 1rem; /* Reduce padding */
+  background-color: #f4f4f4; 
+  padding: 0.5rem 1rem; 
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), /* Top shadow */
               inset 0 -1px 3px rgba(0, 0, 0, 0.1); /* Bottom shadow */
 }
