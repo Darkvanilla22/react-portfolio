@@ -1,11 +1,12 @@
 import React from 'react';
 import '../assets/styles/Resume.css';
+import finianCorbettResume from '../assets/resume/FinianCorbettResume - Main (2024).docx';
 
 const Resume = () => (
   <div className="resume-container">
     <section className="resume">
       <h2>Resume</h2>
-      <a href="path/to/resume.pdf" download>Download Resume</a>
+      <a href= {finianCorbettResume} download>Download Resume</a>
       <h3>Proficiencies</h3>
       <ul>
         <li>HTML</li>
