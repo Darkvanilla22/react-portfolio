@@ -1,5 +1,23 @@
-section {
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.contact {
   padding: 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%; /* Ensure full width for smaller screens */
+  margin: 0 auto; /* Center align horizontally */
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 form {
@@ -10,20 +28,25 @@ form {
 
 form div {
   margin-bottom: 1rem;
-  width: 50%; /* Make the divs take half width to center */
+  width: 100%; /* Make the divs take full width to keep labels aligned */
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  align-items: center;
 }
 
 form label {
   display: block;
   margin-bottom: 0.5rem;
-  width: 100%; /* Full width to align with the input */
+  width: 100%; /* Full width to align with input */
   text-align: left;
+  padding-left: 1rem;
 }
 
 form input,
 form textarea {
-  width: 100%; /* Full width within the div */
+  width: 90%; /* Reduced width to give some padding */
   padding: 0.5rem;
+  margin-bottom: 0.5rem;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
@@ -40,7 +63,6 @@ button {
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 1rem; /* Add margin to separate from fields */
 }
 
 button:hover {
